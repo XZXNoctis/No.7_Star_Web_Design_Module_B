@@ -1,0 +1,62 @@
+@charset "utf-8";
+@font-face {
+	font-family:D1;
+	src: url('Fonts/Dancing_Script/DancingScript-Bold.ttf');}
+@font-face {
+	font-family:Vollkorn-Regular;
+	src: url('Fonts/Vollkorn/Vollkorn-Regular.ttf');}
+body {
+	margin: 0px;
+	height: 100%;
+	background: linear-gradient(#faefca,#fae28f);
+}
+h1 {
+	font-family: D1;
+	font-size: 20px;
+}
+@media (max-width: 460px){
+	.all {
+		width: 90%;
+		margin: auto;
+	}
+	.all p{
+		margin-top: 43px;
+		text-align: center;
+		font-family: Vollkorn-Regular;
+		font-size: 10px;
+	}
+	.header_navigation {
+		margin-top: 37px;
+		margin-bottom: 0px;
+		height: 90px;
+		background:#ffd703;
+		padding-left: 12px;
+		padding-bottom: 12px;
+			}
+	.header_navigation h1{
+		position: relative;
+		top: 25px;
+			}
+	.header_navigation p{
+		position: relative;
+		top: 0px;
+		font-family: Vollkorn-Regular;
+		float: left;
+		font-size: 10px;
+		color: #888;
+	}
+	.header_navigation .gap{
+		margin-right: 15%;
+	}
+	.main{
+		margin-top: -10px;
+		background: #fff;
+	}
+	.Meeting_Events{
+		
+	}
+	.Meeting_Events h1{
+		font-size: 15px;
+		font-family: D1;
+	}
+}
