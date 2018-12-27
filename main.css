@@ -73,14 +73,13 @@ h1 {
 		height: 300px;
 	}
 	.Meeting_Events h2{
+		width: 100%;
 		color: white;
 		font-family: V2;
 		font-size: 13px;
 		text-align: center;
-		position: relative;
+		position: absolute;
 		top: 250px;
-		
-		
 	}
 	.Meeting_Events .img_a{
 		height: 300px;
