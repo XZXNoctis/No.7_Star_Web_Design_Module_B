@@ -18,6 +18,10 @@ h1 {
 	font-family: D1;
 	font-size: 20px;
 }
+p{
+		font-family: V1;
+		font-size: 12px;
+	}
 @media (max-width: 460px){
 	.all {
 		width: 90%;
@@ -122,4 +126,97 @@ h1 {
 		-webkit-filter: brightness(120%);
 		-moz-filter: brightness(120%);
   }
+	.Meeting_Events p{
+		font-family: V1;
+		font-size: 12px;
+	}
+	.Photo_gallery{
+		margin: auto;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.Photo_gallery #photo-gallery{
+		width: 100%
+	}
+	.Photo_gallery p{
+		font-family: V1;
+		font-size: 12px;
+	}
+	.Testimonials{
+		padding: 12px;
+	}
+	.Testimonials .img_all{
+		height: 350px;
+	}
+	.Testimonials .img_a{
+		height: 200px;
+		overflow: hidden;
+		position: relative;
+		background: #CCC;
+	}
+	.Testimonials .img_a img{
+		position: relative;
+		top: -20px;
+	}
+	.Testimonials h2{
+		width: 100%;
+		color: white;
+		font-family: V2;
+		font-size: 13px;
+		text-align: left;
+		position: absolute;
+		left: 12px;
+		bottom: 12px;
+	}
+	.Testimonials .img_b{
+		margin-top: 12px;
+		float: left;
+	}
+	.Testimonials .img_c{
+		margin-top: 12px;
+		float: right;
+	}
+	.Testimonials h1{
+		font-family: D1;
+		
+	}
+	.Testimonials .slogn{
+		height: 130px;
+		border-left-color: #ffd703;
+		border-left-style: solid;
+		border-left-width: 3px;
+		padding-left: 16px;
+		padding-top: 45px;
+	}
+	.Testimonials .slogn h3{
+		
+		font-family: V1;
+		font-size: 23px;
+	}
+	.Hotel_detail{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.check_in{
+		border-width: 2px;
+		border-color: #efefef;
+		border-style: solid;
+		padding: 5px;
+	}
+	.Hotel_detail h2{
+		font-family: D1;
+		font-size: 14px;
+		
+	}
+	.Map{
+		padding-bottom: 6px;
+	}
+	.Map img{
+		width: 100%;
+	}
+	.bottom{
+		width: 100%;
+		height: 400px;
+		background: white;
+	}
 }
